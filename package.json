@@ -1,0 +1,28 @@
+{
+  "name": "twig-cli-tmpl",
+  "description": "A small command-line tool that allows you to generate your .twig files in .html with a NPM script.",
+  "keywords": [
+    "twig",
+    "twigjs",
+    "cli",
+    "template",
+    "includes"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Akiletour/twig-cli-tmpl.git",
+  "bugs": {
+    "url": "https://github.com/Akiletour/twig-cli-tmpl/issues"
+  },
+  "author": "Pascal GAULT <pascal@inrage.fr>",
+  "license": "MIT",
+  "bin": {
+    "twig-cli": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "glob": "^7.1.2",
+    "mkdirp": "^0.5.1",
+    "twig": "^1.10.5"
+  }
+}
