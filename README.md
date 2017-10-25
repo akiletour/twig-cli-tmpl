@@ -29,7 +29,7 @@ As you can see in the `example` directory you have an `index.html.twig` file tha
 Thanks to the **--base** variable, it allows us to place ourselves in the `example/` directory and compile from there.
 
 ```
-$ twig-cli example/*.html.twig --base example/ --output public/
+$ twig-cli "example/*.html.twig" --base example/ --output public/
 ```
 
 All files compiled at the root of `example` will be placed in the `public` directory. The file `index.html.twig` becomes `index.html`.
